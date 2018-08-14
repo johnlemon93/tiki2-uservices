@@ -1,0 +1,9 @@
+*.pdb
+
+obj
+
+bin
+
+*.suo
+
+.vs
