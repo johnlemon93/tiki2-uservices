@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 using LibOwin;
 using Microsoft.IdentityModel.Tokens;
 using Nancy.Bootstrapper;
+using Microsoft.IdentityModel.Logging;
+using Nancy;
+using Nancy.Owin;
+using System.Security.Claims;
+using System.Text;
 
 namespace Uservice.Auth
 {
-    using Microsoft.IdentityModel.Logging;
-    using Nancy;
-    using Nancy.Owin;
-    using System.Security.Claims;
-    using System.Text;
     using AppFunc = Func<IDictionary<string, object>, Task>;
 
     public class Authorization

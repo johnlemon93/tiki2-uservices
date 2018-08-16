@@ -8,9 +8,9 @@ namespace Uservice.Platform
 {
     public static class UservicePlatform
     {
-        private static string TokenUrl;
-        private static string ClientName;
-        private static string ClientSecret;
+        private static string TokenUrl = string.Empty;
+        private static string ClientName = "DefaultId";
+        private static string ClientSecret = string.Empty;
 
         public static void Configure(string tokenUrl, string clientName, string clientSecret)
         {
@@ -19,10 +19,9 @@ namespace Uservice.Platform
             ClientSecret = clientSecret;
         }
 
-        public static TinyIoCContainer UseHttpClientFactory(this TinyIoCContainer self, NancyContext context)
+        public static TinyIoCContainer UseHttpClient(this TinyIoCContainer self, NancyContext context)
         {
-
-            // reads the end user from the OWIn environment
+            // reads the end user from the OWIN environment
             object key = null;
             context.GetOwinEnvironment()?.TryGetValue(OwinConstants.RequestUser, out key);
             // get the end user's identity token from the user object
@@ -32,8 +31,8 @@ namespace Uservice.Platform
             // reads the correlation token from OWIN environment
             var correlationToken = context.GetOwinEnvironment()?["correlationToken"] as string;
 
-            // Registers the HttpClientFactory as a per - request dependency in Nancy’s container
-            self.Register<IHttpClientFactory>(new HttpClientFactory(TokenUrl, ClientName, ClientSecret, correlationToken ?? "", idToken?.Value ?? ""));
+            // Registers the UserviceHttpClient as a per-request dependency in Nancy’s container
+            self.Register<IHttpClient>(new UserviceHttpClient(TokenUrl, ClientName, ClientSecret, correlationToken ?? "", idToken?.Value ?? ""));
 
             return self;
         }

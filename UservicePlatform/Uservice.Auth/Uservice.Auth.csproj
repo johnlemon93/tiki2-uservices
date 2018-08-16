@@ -6,6 +6,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\UserviceNuGet</OutputPath>
+    <DocumentationFile>..\..\UserviceNuGet\netcoreapp2.0\Uservice.Auth.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
