@@ -21,7 +21,7 @@ A simple online shopping back-end application created based on Microservice arch
 # What is Tiki2 by the way?
 [Tiki](https://tiki.vn) is a very popular eCommerce site in Vietnam from where I usually get my favorite books.
 
-So **Tiki2** means a clone (but more simple).
+So **Tiki2** means a clone (but simpler).
 
 # Why did I do this?
 I wanted to be challenged with Back-end Web development after had been working mostly on developing desktop application for more than 2 years. 
