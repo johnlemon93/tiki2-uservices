@@ -4,8 +4,9 @@ A simple online shopping back-end application created based on Microservice arch
 ## Document
 - [Requirement](https://github.com/johnlemon93/tiki2-uservices/wiki/Requirement)
 - [Architecture](https://github.com/johnlemon93/tiki2-uservices/wiki/Architecture)
-- [Design](https://github.com/johnlemon93/tiki2-uservices/wiki/Design)
-  - [EAV database](https://github.com/johnlemon93/tiki2-uservices/wiki/Design)
+- [Design]()
+  - [EAV database]()
+  - [Caching system]()
 - [Implementation](https://github.com/johnlemon93/tiki2-uservices/wiki/Implementation)
   - [Uservice Platform]()
     - [Monitoring and Logging]()
