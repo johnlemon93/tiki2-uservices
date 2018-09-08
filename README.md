@@ -15,6 +15,8 @@ My colleague (a Software Architect) recommended me [this book](https://www.manni
 
 Not only the code, you can also find [the document](https://github.com/johnlemon93/tiki2-uservices/wiki) including: requirements, architectures, designs, technologies and some best practices I had learnt. If you are also in or going to be in the same journey to become a Back-end developer, then feel free to take a look at my story.
 
+I hope you enjoy it as an interest of building a simple but end-to-end eCommerce system.
+
 All feedbacks, comments and especially "stars" are welcome :smiley:!
 
 # License
