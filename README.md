@@ -4,18 +4,18 @@ A simple online shopping back-end application created based on Microservice arch
 ## Document
 - [Requirement](https://github.com/johnlemon93/tiki2-uservices/wiki/Requirement)
 - [Architecture](https://github.com/johnlemon93/tiki2-uservices/wiki/Architecture)
-- [Design]()
-  - [EAV database]()
-  - [Caching system]()
-  - [Recommendation system]()
+- Design
+  - EAV database
+  - Caching system
+  - Recommendation system
 - [Implementation](https://github.com/johnlemon93/tiki2-uservices/wiki/Implementation)
-  - [Uservice Platform]()
-    - [Monitoring and Logging]()
-    - [Auth]()
-    - [Platform]()
-  - [Product Catalog]()
-  - [Api Gateway]()
-- [Refactoring and Opimization](https://github.com/johnlemon93/tiki2-uservices/wiki/RefactorAndOptimization)
+  - Uservice Platform
+    - Monitoring and Logging
+    - Auth
+    - Platform
+  - Product Catalog
+  - Api Gateway
+- Refactoring and Opimization
 - [Best Practices](https://github.com/johnlemon93/tiki2-uservices/wiki/BestPractices)
 
 # What is Tiki2 by the way?
