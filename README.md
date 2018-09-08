@@ -1,7 +1,20 @@
 # Tiki2 Microservices
 A simple online shopping back-end application created based on Microservice architecture.
+
 ## Document
-- [Wiki](https://github.com/johnlemon93/tiki2-uservices/wiki)
+- [Requirement](https://github.com/johnlemon93/tiki2-uservices/wiki/Requirement)
+- [Architecture](https://github.com/johnlemon93/tiki2-uservices/wiki/Architecture)
+- [Design](https://github.com/johnlemon93/tiki2-uservices/wiki/Design)
+  - [EAV database](https://github.com/johnlemon93/tiki2-uservices/wiki/Design)
+- [Implementation](https://github.com/johnlemon93/tiki2-uservices/wiki/Implementation)
+  - [Uservice Platform]()
+    - [Monitoring and Logging]()
+    - [Auth]()
+    - [Platform]()
+  - [Product Catalog]()
+  - [Api Gateway]()
+- [Refactoring and Opimization](https://github.com/johnlemon93/tiki2-uservices/wiki/RefactorAndOptimization)
+- [Best Practices](https://github.com/johnlemon93/tiki2-uservices/wiki/BestPractices)
 
 # What is Tiki2 by the way?
 [Tiki](https://tiki.vn) is a very popular eCommerce site in Vietnam from where I usually get my favorite books.
