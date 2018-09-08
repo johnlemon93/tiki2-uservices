@@ -1,5 +1,7 @@
 # Tiki2 Microservices
-A simple online shopping back-end application created based on Microservice architecture
+A simple online shopping back-end application created based on Microservice architecture.
+## Document
+- [Wiki](https://github.com/johnlemon93/tiki2-uservices/wiki)
 
 # What is Tiki2 by the way?
 [Tiki](https://tiki.vn) is a very popular eCommerce site in Vietnam from where I usually get my favorite books.
