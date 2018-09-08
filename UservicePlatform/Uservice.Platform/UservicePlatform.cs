@@ -9,13 +9,13 @@ namespace Uservice.Platform
     public static class UservicePlatform
     {
         private static string TokenUrl = string.Empty;
-        private static string ClientName = "DefaultId";
+        private static string ClientId = "DefaultId";
         private static string ClientSecret = string.Empty;
 
-        public static void Configure(string tokenUrl, string clientName, string clientSecret)
+        public static void Configure(string tokenUrl, string clientId, string clientSecret)
         {
             TokenUrl = tokenUrl;
-            ClientName = clientName;
+            ClientId = clientId;
             ClientSecret = clientSecret;
         }
 
@@ -32,7 +32,7 @@ namespace Uservice.Platform
             var correlationToken = context.GetOwinEnvironment()?["correlationToken"] as string;
 
             // Registers the UserviceHttpClient as a per-request dependency in Nancy’s container
-            self.Register<IHttpClient>(new UserviceHttpClient(TokenUrl, ClientName, ClientSecret, correlationToken ?? "", idToken?.Value ?? ""));
+            self.Register<IHttpClient>(new UserviceHttpClient(TokenUrl, ClientId, ClientSecret, correlationToken ?? "", idToken?.Value ?? ""));
 
             return self;
         }

@@ -55,12 +55,12 @@ namespace Uservice.Platform
         /// Initializes a new instance of UserviceHttpClient class.
         /// </summary>
         /// <param name="tokenUrl">URL of the 'OpenID Connect/OAuth 2.0' token endpoint in the Login microservice</param>
-        /// <param name="clientName">along with <param name="clientSecret">clientSecret</param> used to obtain an access token from the token endpoint</param>
+        /// <param name="clientId">along with <param name="clientSecret">clientSecret</param> used to obtain an access token from the token endpoint</param>
         /// <param name="correlationToken">per-request correlation token coming from a piece of middleware</param>
         /// <param name="idToken">Token with the end user's identity</param>
-        public UserviceHttpClient(string tokenUrl, string clientName, string clientSecret, string correlationToken, string idToken)
+        public UserviceHttpClient(string tokenUrl, string clientId, string clientSecret, string correlationToken, string idToken)
         {
-            m_TokenClient = new TokenClient(tokenUrl, clientName, clientSecret);
+            m_TokenClient = new TokenClient(tokenUrl, clientId, clientSecret);
             m_CorrelationToken = correlationToken;
             m_IdToken = idToken;
         }
