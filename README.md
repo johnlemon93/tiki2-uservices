@@ -11,7 +11,7 @@ I wanted to be challenged with Back-end Web development after had been working m
 
 My colleague (a Software Architect) recommended me [this book](https://www.manning.com/books/microservices-in-net-core) about Microservice. And this project was made as a practical exercise after reading that book. 
 
-Not only the code, you also find [the document](https://github.com/johnlemon93/tiki2-uservices/wiki) including: requirements, architect, design, technologies and some best practices I had learnt. If you are also in or going to be in the same journey to become a Back-end developer, then feel free to take a look at my story.
+Not only the code, you can also find [the document](https://github.com/johnlemon93/tiki2-uservices/wiki) including: requirements, architect, design, technologies and some best practices I had learnt. If you are also in or going to be in the same journey to become a Back-end developer, then feel free to take a look at my story.
 
 All feedbacks, comments and especially "stars" are welcome :smiley:!
 
